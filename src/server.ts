@@ -1,5 +1,5 @@
 import express, {Application, Request, Response} from 'express';
-import router from './routes/index';
+import router from './routes';
 
 const getServer = (): Application => {
   const app: Application = express();
